@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="src/style.css" type="text/css" />
+    <title>Merry Christmas</title>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <center>
+      <div id="context">
+        <form id="login-form">
+          <input
+            required
+            maxlength="15"
+            type="text"
+            placeholder="What is your name?"
+          />
+          <input type="submit" value="Log In" />
+        </form>
+        <h1 id="greeting" class="hidden"></h1>
+        <h1 id="BigTitle">Merry Christmas</h1>
+        <h4 class="js-clock"></h2>
+        <form id="todo-form">
+          <input type="text" placeholder="What do you want?" />
+        </form>
+        <ul id="todo-list"></ul>
+        <h3 id="weather">
+          <span></span>
+          <span></span>
+        </h3>
+      </div>
+    </center>
+    <script src="src/D-day.js"></script>
+    <script src="src/Todo.js"></script>
+    <script src="src/Login.js"></script>
+    <script src="src/Weather.js"></script>
+    <script src="src/Background.js"></script>
+  </body>
+</html>
